@@ -1,6 +1,6 @@
 // connect to socket server
-const socket = io.connect();
-//const socket = io.connect("");///#######################################
+//const socket = io.connect();
+const socket = io.connect("https://tanmoy-smart-board.herokuapp.com/");
 // *********************************Basic Setup
 const board = document.querySelector(".board");
 board.height = window.innerHeight;
